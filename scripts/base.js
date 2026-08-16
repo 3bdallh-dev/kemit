@@ -130,3 +130,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
   console.log('𓂀 Egyptian Museum Base Engine Loaded');
 });
+
+
+if (heroVideo) {
+  const freshSrc = heroVideo.querySelector('source').src;
+  heroVideo.load(); // forces the browser to re-request cleanly instead of reusing a bad cached range
+}
