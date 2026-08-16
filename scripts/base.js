@@ -73,6 +73,16 @@ document.addEventListener('DOMContentLoaded', function() {
       heroVideoWrap.classList.add('video-unavailable');
     }
   }
+  // Fix: video breaks after navigating back on GitHub Pages (bfcache restore)
+window.addEventListener('pageshow', (event) => {
+  if (event.persisted && heroVideo) {
+    heroVideo.load();
+    const playPromise = heroVideo.play();
+    if (playPromise !== undefined) {
+      playPromise.catch(() => { /* autoplay blocked, that's fine */ });
+    }
+  }
+});
 
   // ---- Active Navigation Link ----
   const currentPage = window.location.pathname.split('/').pop() || 'index.html';
