@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>𓂀 Home | Egyptian Museum</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/base.css">
+</head>
+<body class="bg-egypt">
+
+  <!-- Navbar -->
+  <nav class="navbar-egypt fixed-top" id="navbar">
+    <div class="container navbar-inner">
+      <a class="nav-logo" href="home.html"><span class="nav-logo-icon">𓂀</span>EGYPTIAN MUSEUM</a>
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-panel" id="nav-links">
+        <ul class="nav-panel-list">
+          <li><a class="nav-link-egypt" href="home.html">Home</a></li>
+          <li><a class="nav-link-egypt" href="timeline.html">Timeline</a></li>
+          <li><a class="nav-link-egypt" href="visit.html">Visit</a></li>
+          <li><a class="nav-link-egypt" href="about.html">About</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="nav-overlay" id="nav-overlay"></div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero-landing" style="height:80vh;margin-top:56px">
+    <div class="hero-video-wrap" id="hero-video-wrap">
+      <video class="hero-video" autoplay muted loop playsinline poster="assets/video/hero-poster.jpg">
+        <source src="assets/video/hero-bg.mp4" type="video/mp4">
+      </video>
+      <div class="hero-video-overlay"></div>
+    </div>
+    <div class="hero-pattern"></div>
+    <div class="hero-content px-3">
+      <div class="animate-float" style="font-size:4rem;margin-bottom:1rem">𓂀</div>
+      <h1 style="font-size:clamp(2rem,5vw,3.5rem);color:var(--egypt-gold);letter-spacing:0.15em;font-weight:700">
+        THE HOUSE OF PHARAOHS
+      </h1>
+      <div class="hero-line"></div>
+      <p class="sans" style="color:var(--egypt-text-muted);letter-spacing:0.2em;text-transform:uppercase;font-size:0.9rem;margin-bottom:2rem">
+        Six Halls · 5,000 Years · One Eternal Journey
+      </p>
+      <a href="#halls" class="btn-egypt-outline">Explore the Halls</a>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="section-egypt bg-egypt-alt">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-4 mb-4 mb-md-0 fade-in">
+          <div class="stat-number" style="font-size:2.5rem;color:var(--egypt-gold);font-weight:700">120K+</div>
+          <div class="sans" style="color:var(--egypt-text-muted);font-size:0.9rem;letter-spacing:0.1em;text-transform:uppercase">Artifacts</div>
+        </div>
+        <div class="col-md-4 mb-4 mb-md-0 fade-in">
+          <div class="stat-number" style="font-size:2.5rem;color:var(--egypt-gold);font-weight:700">1902</div>
+          <div class="sans" style="color:var(--egypt-text-muted);font-size:0.9rem;letter-spacing:0.1em;text-transform:uppercase">Established</div>
+        </div>
+        <div class="col-md-4 fade-in">
+          <div class="stat-number" style="font-size:2.5rem;color:var(--egypt-gold);font-weight:700">27</div>
+          <div class="sans" style="color:var(--egypt-text-muted);font-size:0.9rem;letter-spacing:0.1em;text-transform:uppercase">Royal Mummies</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6 Halls -->
+  <section id="halls" class="section-egypt">
+    <div class="container">
+      <div class="text-center mb-5 fade-in">
+        <h2 style="font-size:clamp(1.8rem,4vw,2.5rem);color:var(--egypt-gold);letter-spacing:0.1em">The Six Halls</h2>
+        <div class="section-line"></div>
+        <p class="sans" style="color:var(--egypt-text-muted);max-width:600px;margin:0 auto">
+          Journey through six immersive halls, each revealing a different facet of ancient Egypt's eternal civilization.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Hall 1 -->
+        <div class="col-md-6 col-lg-4 fade-in">
+          <a href="ancient-egypt.html" class="hall-card">
+            <div class="hall-icon">𓉐</div>
+            <h3>Ancient Egypt</h3>
+            <p class="sans">Daily life, culture, religion, and architecture of the Nile civilization. Discover how ancient Egyptians lived, worked, and worshipped.</p>
+          </a>
+        </div>
+        <!-- Hall 2 -->
+        <div class="col-md-6 col-lg-4 fade-in">
+          <a href="pharaohs.html" class="hall-card">
+            <div class="hall-icon">𓀭</div>
+            <h3>The Pharaohs</h3>
+            <p class="sans">Meet the god-kings who ruled the Two Lands. From Tutankhamun to Cleopatra, explore the lives of Egypt's most powerful rulers.</p>
+          </a>
+        </div>
+        <!-- Hall 3 -->
+        <div class="col-md-6 col-lg-4 fade-in">
+          <a href="hieroglyphs.html" class="hall-card">
+            <div class="hall-icon">𓂋</div>
+            <h3>Hieroglyphs</h3>
+            <p class="sans">Unlock the sacred writing of ancient Egypt. Learn the history of the language and try our interactive hieroglyph translator.</p>
+          </a>
+        </div>
+        <!-- Hall 4 -->
+        <div class="col-md-6 col-lg-4 fade-in">
+          <a href="military.html" class="hall-card">
+            <div class="hall-icon">𓌂</div>
+            <h3>Military</h3>
+            <p class="sans">Chariots, weapons, and tactics that built an empire. Explore the military might that defended Egypt for three millennia.</p>
+          </a>
+        </div>
+        <!-- Hall 5 -->
+        <div class="col-md-6 col-lg-4 fade-in">
+          <a href="treasures.html" class="hall-card">
+            <div class="hall-icon">𓋞</div>
+            <h3>Treasures</h3>
+            <p class="sans">Gold, jewels, and artifacts of unimaginable value. Discover the treasures that accompanied pharaohs into eternity.</p>
+          </a>
+        </div>
+        <!-- Hall 6 -->
+        <div class="col-md-6 col-lg-4 fade-in">
+          <a href="about.html" class="hall-card">
+            <div class="hall-icon">𓁹</div>
+            <h3>About Us</h3>
+            <p class="sans">The story of the Egyptian Museum, our mission to preserve history, and how you can connect with us.</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section-egypt bg-egypt-alt">
+    <div class="container text-center fade-in">
+      <h2 style="color:var(--egypt-gold);font-size:2rem;margin-bottom:1rem">Walk Through Eternity</h2>
+      <p class="sans" style="color:var(--egypt-text-muted);max-width:600px;margin:0 auto 2rem">
+        Every hall holds secrets waiting to be uncovered. Begin your journey through 5,000 years of civilization.
+      </p>
+      <a href="timeline.html" class="btn-egypt-gold">View the Timeline</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-egypt">
+    <div class="container">
+      <div class="footer-icon">𓂀</div>
+      <p style="color:var(--egypt-text-muted);letter-spacing:0.2em;text-transform:uppercase;font-size:0.9rem">Egyptian Museum</p>
+      <p class="sans" style="color:#5a4a3a;font-size:0.8rem;margin-top:1rem">© 2026 Egyptian Museum. All Rights Reserved.</p>
+      <div class="d-flex justify-content-center gap-4 mt-3">
+        <a href="#" class="sans" style="color:var(--egypt-text-muted);font-size:0.8rem;text-transform:uppercase;text-decoration:none;transition:color 0.3s">Facebook</a>
+        <a href="#" class="sans" style="color:var(--egypt-text-muted);font-size:0.8rem;text-transform:uppercase;text-decoration:none;transition:color 0.3s">Instagram</a>
+        <a href="#" class="sans" style="color:var(--egypt-text-muted);font-size:0.8rem;text-transform:uppercase;text-decoration:none;transition:color 0.3s">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/bootstrap.bundle.min.js"></script>
+  <script src="scripts/base.js"></script>
+  <script src="scripts/home.js"></script>
+</body>
+</html>

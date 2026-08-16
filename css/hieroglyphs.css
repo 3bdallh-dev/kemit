@@ -1,0 +1,20 @@
+/* ============================================
+   HIEROGLYPHS PAGE - extends base.css
+   ============================================ */
+
+/* Translator */
+.translator-box {
+  background: linear-gradient(135deg, var(--egypt-card), var(--egypt-bg-alt));
+  border: 1px solid var(--egypt-border);
+  padding: 2rem;
+}
+.translator-output {
+  min-height: 120px;
+  background: rgba(0,0,0,0.3);
+  border: 1px solid var(--egypt-border);
+  color: var(--egypt-gold);
+  font-size: 2rem;
+  padding: 1rem;
+  text-align: center;
+  word-wrap: break-word;
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>𓂋 Hieroglyphs | Egyptian Museum</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/hieroglyphs.css">
+</head>
+<body class="bg-egypt">
+
+  <!-- Navbar -->
+  <nav class="navbar-egypt fixed-top" id="navbar">
+    <div class="container navbar-inner">
+      <a class="nav-logo" href="home.html"><span class="nav-logo-icon">𓂀</span>EGYPTIAN MUSEUM</a>
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-panel" id="nav-links">
+        <ul class="nav-panel-list">
+          <li><a class="nav-link-egypt" href="home.html">Home</a></li>
+          <li><a class="nav-link-egypt" href="timeline.html">Timeline</a></li>
+          <li><a class="nav-link-egypt" href="visit.html">Visit</a></li>
+          <li><a class="nav-link-egypt" href="about.html">About</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="nav-overlay" id="nav-overlay"></div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header" style="margin-top:56px">
+    <div class="page-header-pattern"></div>
+    <div class="page-header-content px-3">
+      <h1>Hieroglyphs</h1>
+      <p class="sans">The Sacred Writing · Words of the Gods</p>
+    </div>
+  </header>
+
+  <!-- Breadcrumb -->
+  <div class="breadcrumb-egypt">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb mb-0">
+          <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Hieroglyphs</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Intro -->
+  <section class="section-egypt">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6 fade-in">
+          <h2 style="color:var(--egypt-gold);font-size:2rem;letter-spacing:0.1em">Words of the Gods</h2>
+          <div style="width:60px;height:3px;background:var(--egypt-gold);margin:1rem 0 2rem"></div>
+          <p class="sans" style="color:var(--egypt-text-muted);line-height:1.8;font-size:1.1rem">
+            The word "hieroglyph" comes from the Greek <em>hieros</em> (sacred) and <em>gluphe</em> (carving). To the Egyptians, these symbols were <em>mdw nṯr</em> — "words of the god." Hieroglyphs were used primarily for religious and monumental inscriptions, while hieratic and demotic scripts served everyday purposes.
+          </p>
+          <p class="sans" style="color:var(--egypt-text-muted);line-height:1.8;font-size:1.1rem">
+            For nearly 1,500 years, the meaning of hieroglyphs was lost to history. Then, in 1799, the Rosetta Stone was discovered — a trilingual decree that provided the key. In 1822, Jean-François Champollion cracked the code, unlocking the voices of the pharaohs.
+          </p>
+        </div>
+        <div class="col-lg-6 fade-in">
+          <div style="border:2px solid rgba(212,175,55,0.3);padding:1rem">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Rosetta_Stone.JPG/800px-Rosetta_Stone.JPG" class="img-fluid" alt="Rosetta Stone" style="border:1px solid var(--egypt-border)">
+            <p class="sans text-center mt-2" style="color:var(--egypt-text-muted);font-size:0.85rem">The Rosetta Stone — the key to decipherment</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Translator -->
+  <section class="section-egypt bg-egypt-alt">
+    <div class="container">
+      <div class="text-center mb-5 fade-in">
+        <h2 style="color:var(--egypt-gold);font-size:2rem;letter-spacing:0.1em">Hieroglyph Translator</h2>
+        <div class="section-line"></div>
+        <p class="sans" style="color:var(--egypt-text-muted);max-width:600px;margin:0 auto">
+          Type English words or letters below to see their hieroglyphic representation. Try words like <em>sun, water, eye, king, life, pharaoh, egypt, gold, love</em>.
+        </p>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-8 fade-in">
+          <div class="translator-box">
+            <div class="mb-3">
+              <label class="form-label">Your Text</label>
+              <input type="text" id="translator-input" class="form-control form-egypt" placeholder="Type something... (try: sun water king)" style="font-size:1.1rem;padding:1rem">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Hieroglyphs</label>
+              <div id="translator-output" class="translator-output">𓁹</div>
+            </div>
+            <button id="translator-btn" class="btn-egypt-gold w-100">Translate</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5 g-3 text-center fade-in">
+        <div class="col-6 col-md-3">
+          <div style="font-size:3rem;color:var(--egypt-gold)">𓇳</div>
+          <p class="sans" style="color:var(--egypt-text-muted);font-size:0.9rem">Sun (Ra)</p>
+        </div>
+        <div class="col-6 col-md-3">
+          <div style="font-size:3rem;color:var(--egypt-gold)">𓈗</div>
+          <p class="sans" style="color:var(--egypt-text-muted);font-size:0.9rem">Water (N)</p>
+        </div>
+        <div class="col-6 col-md-3">
+          <div style="font-size:3rem;color:var(--egypt-gold)">𓁹</div>
+          <p class="sans" style="color:var(--egypt-text-muted);font-size:0.9rem">Eye (Wedjat)</p>
+        </div>
+        <div class="col-6 col-md-3">
+          <div style="font-size:3rem;color:var(--egypt-gold)">𓋹</div>
+          <p class="sans" style="color:var(--egypt-text-muted);font-size:0.9rem">Ankh (Life)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Writing Systems -->
+  <section class="section-egypt">
+    <div class="container">
+      <div class="text-center mb-5 fade-in">
+        <h2 style="color:var(--egypt-gold);font-size:2rem;letter-spacing:0.1em">Three Scripts, One Language</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4 fade-in">
+          <div class="card card-egypt h-100 text-center p-4">
+            <div style="font-size:3rem;color:var(--egypt-gold);margin-bottom:1rem">𓂋</div>
+            <h4 style="color:var(--egypt-gold)">Hieroglyphic</h4>
+            <p class="sans" style="color:var(--egypt-text-muted)">The formal script used on monuments and temples. Over 700 distinct signs combining logographic and alphabetic elements.</p>
+          </div>
+        </div>
+        <div class="col-md-4 fade-in">
+          <div class="card card-egypt h-100 text-center p-4">
+            <div style="font-size:3rem;color:var(--egypt-gold);margin-bottom:1rem">𓏏</div>
+            <h4 style="color:var(--egypt-gold)">Hieratic</h4>
+            <p class="sans" style="color:var(--egypt-text-muted)">A cursive form of hieroglyphs used by priests and scribes for religious texts and administrative documents on papyrus.</p>
+          </div>
+        </div>
+        <div class="col-md-4 fade-in">
+          <div class="card card-egypt h-100 text-center p-4">
+            <div style="font-size:3rem;color:var(--egypt-gold);margin-bottom:1rem">𓆓</div>
+            <h4 style="color:var(--egypt-gold)">Demotic</h4>
+            <p class="sans" style="color:var(--egypt-text-muted)">The everyday script used by the common people. Even more cursive than hieratic, it became the dominant script in the Late Period.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-egypt">
+    <div class="container">
+      <div class="footer-icon">𓂀</div>
+      <p style="color:var(--egypt-text-muted);letter-spacing:0.2em;text-transform:uppercase;font-size:0.9rem">Egyptian Museum</p>
+      <p class="sans" style="color:#5a4a3a;font-size:0.8rem;margin-top:1rem">© 2026 Egyptian Museum. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="scripts/bootstrap.bundle.min.js"></script>
+  <script src="scripts/base.js"></script>
+  <script src="scripts/hieroglyphs.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>𓋞 Treasures | Egyptian Museum</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/base.css">
+</head>
+<body class="bg-egypt">
+
+  <!-- Navbar -->
+  <nav class="navbar-egypt fixed-top" id="navbar">
+    <div class="container navbar-inner">
+      <a class="nav-logo" href="home.html"><span class="nav-logo-icon">𓂀</span>EGYPTIAN MUSEUM</a>
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-panel" id="nav-links">
+        <ul class="nav-panel-list">
+          <li><a class="nav-link-egypt" href="home.html">Home</a></li>
+          <li><a class="nav-link-egypt" href="timeline.html">Timeline</a></li>
+          <li><a class="nav-link-egypt" href="visit.html">Visit</a></li>
+          <li><a class="nav-link-egypt" href="about.html">About</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="nav-overlay" id="nav-overlay"></div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header" style="margin-top:56px">
+    <div class="page-header-pattern"></div>
+    <div class="page-header-content px-3">
+      <h1>Treasures</h1>
+      <p class="sans">Gold of the Pharaohs · Jewels of Eternity</p>
+    </div>
+  </header>
+
+  <!-- Breadcrumb -->
+  <div class="breadcrumb-egypt">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb mb-0">
+          <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Treasures</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Intro -->
+  <section class="section-egypt">
+    <div class="container">
+      <div class="text-center mb-5 fade-in">
+        <h2 style="color:var(--egypt-gold);font-size:clamp(1.8rem,4vw,2.5rem);letter-spacing:0.1em">Crown Jewels of the Collection</h2>
+        <div class="section-line"></div>
+        <p class="sans" style="color:var(--egypt-text-muted);max-width:700px;margin:0 auto">
+          Discover treasures that have survived millennia, from the Valley of the Kings to the banks of the Nile. Each artifact is a window into the wealth, artistry, and spiritual beliefs of ancient Egypt.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dynamic Treasures Grid -->
+  <section class="section-egypt bg-egypt-alt">
+    <div class="container">
+      <div class="row" id="treasures-grid">
+        <!-- Rendered dynamically by script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section-egypt">
+    <div class="container text-center fade-in">
+      <div style="font-size:4rem;color:var(--egypt-gold);margin-bottom:1rem">𓂀</div>
+      <h2 style="color:var(--egypt-gold);font-size:2rem;margin-bottom:1rem">See Them in Person</h2>
+      <p class="sans" style="color:var(--egypt-text-muted);max-width:600px;margin:0 auto 2rem">
+        Nothing compares to standing before these ancient wonders. Plan your visit to the Egyptian Museum today.
+      </p>
+      <a href="visit.html" class="btn-egypt-gold">Plan Your Visit</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-egypt">
+    <div class="container">
+      <div class="footer-icon">𓂀</div>
+      <p style="color:var(--egypt-text-muted);letter-spacing:0.2em;text-transform:uppercase;font-size:0.9rem">Egyptian Museum</p>
+      <p class="sans" style="color:#5a4a3a;font-size:0.8rem;margin-top:1rem">© 2026 Egyptian Museum. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="scripts/bootstrap.bundle.min.js"></script>
+  <script src="scripts/base.js"></script>
+  <script src="scripts/treasures.js"></script>
+</body>
+</html>

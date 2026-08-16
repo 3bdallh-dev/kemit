@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>𓉐 Ancient Egypt | Egyptian Museum</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/base.css">
+</head>
+<body class="bg-egypt">
+
+  <!-- Navbar -->
+  <nav class="navbar-egypt fixed-top" id="navbar">
+    <div class="container navbar-inner">
+      <a class="nav-logo" href="home.html"><span class="nav-logo-icon">𓂀</span>EGYPTIAN MUSEUM</a>
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-panel" id="nav-links">
+        <ul class="nav-panel-list">
+          <li><a class="nav-link-egypt" href="home.html">Home</a></li>
+          <li><a class="nav-link-egypt" href="timeline.html">Timeline</a></li>
+          <li><a class="nav-link-egypt" href="visit.html">Visit</a></li>
+          <li><a class="nav-link-egypt" href="about.html">About</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="nav-overlay" id="nav-overlay"></div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header" style="margin-top:56px">
+    <div class="page-header-pattern"></div>
+    <div class="page-header-content px-3">
+      <h1>Ancient Egypt</h1>
+      <p class="sans">Life along the Nile · 3100 BCE – 30 BCE</p>
+    </div>
+  </header>
+
+  <!-- Breadcrumb -->
+  <div class="breadcrumb-egypt">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb mb-0">
+          <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Ancient Egypt</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Intro -->
+  <section class="section-egypt">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6 fade-in">
+          <h2 style="color:var(--egypt-gold);font-size:2rem;letter-spacing:0.1em">The Gift of the Nile</h2>
+          <div style="width:60px;height:3px;background:var(--egypt-gold);margin:1rem 0 2rem"></div>
+          <p class="sans" style="color:var(--egypt-text-muted);line-height:1.8;font-size:1.1rem">
+            Ancient Egypt was one of the world's first great civilizations, flourishing for over 3,000 years along the banks of the Nile River. The predictable flooding of the Nile provided fertile soil for agriculture, enabling a stable society that produced monumental architecture, complex religious beliefs, and remarkable artistic achievements.
+          </p>
+          <p class="sans" style="color:var(--egypt-text-muted);line-height:1.8;font-size:1.1rem">
+            From the bustling markets of Thebes to the quiet farms of the Delta, Egyptian life was a rich tapestry woven with religion, family, and the eternal quest for ma'at — cosmic order and balance.
+          </p>
+        </div>
+        <div class="col-lg-6 fade-in">
+          <div style="border:2px solid rgba(212,175,55,0.3);padding:1rem;transform:rotate(2deg);transition:transform 0.5s" onmouseover="this.style.transform='rotate(0deg)'" onmouseout="this.style.transform='rotate(2deg)'">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Nile_River_Egypt.jpg/800px-Nile_River_Egypt.jpg" class="img-fluid" alt="The Nile" style="border:1px solid var(--egypt-border)">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lifestyle Accordion -->
+  <section class="section-egypt bg-egypt-alt">
+    <div class="container">
+      <div class="text-center mb-5 fade-in">
+        <h2 style="color:var(--egypt-gold);font-size:2rem;letter-spacing:0.1em">Aspects of Daily Life</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-6 fade-in">
+          <div class="accordion" id="lifeAccordion">
+            <div class="accordion-item" style="background:transparent;border:1px solid var(--egypt-border)">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" style="background:var(--egypt-card);color:var(--egypt-gold);font-family:'Cinzel',serif">
+                  𓃀 Food & Agriculture
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#lifeAccordion">
+                <div class="accordion-body sans" style="background:var(--egypt-bg-alt);color:var(--egypt-text-muted)">
+                  Egyptians cultivated wheat, barley, flax, and vegetables along the Nile. Bread and beer were staples. The wealthy enjoyed beef, poultry, fish, figs, dates, and honey. The annual inundation made agriculture the backbone of the economy.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mt-3" style="background:transparent;border:1px solid var(--egypt-border)">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" style="background:var(--egypt-card);color:var(--egypt-gold);font-family:'Cinzel',serif">
+                  𓃭 Clothing & Fashion
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#lifeAccordion">
+                <div class="accordion-body sans" style="background:var(--egypt-bg-alt);color:var(--egypt-text-muted)">
+                  Most Egyptians wore simple linen garments due to the heat. Men wore kilts (shendyt), women wore tight dresses. The elite adorned themselves with jewelry made of gold, lapis lazuli, and faience. Wigs were common among the upper classes.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mt-3" style="background:transparent;border:1px solid var(--egypt-border)">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" style="background:var(--egypt-card);color:var(--egypt-gold);font-family:'Cinzel',serif">
+                  𓉐 Architecture & Homes
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#lifeAccordion">
+                <div class="accordion-body sans" style="background:var(--egypt-bg-alt);color:var(--egypt-text-muted)">
+                  Commoners lived in mud-brick houses with flat roofs. The wealthy had villas with gardens, pools, and multiple rooms. Monumental architecture — pyramids, temples, and tombs — was built from limestone and granite to last eternity.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 fade-in">
+          <div class="accordion" id="lifeAccordion2">
+            <div class="accordion-item" style="background:transparent;border:1px solid var(--egypt-border)">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" style="background:var(--egypt-card);color:var(--egypt-gold);font-family:'Cinzel',serif">
+                  𓀭 Religion & Beliefs
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#lifeAccordion2">
+                <div class="accordion-body sans" style="background:var(--egypt-bg-alt);color:var(--egypt-text-muted)">
+                  Egyptians were deeply religious, worshipping a pantheon of gods led by Ra, Osiris, and Isis. They believed in the afterlife, mummification, and the weighing of the heart against the feather of Ma'at. Temples were the centers of religious and economic life.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mt-3" style="background:transparent;border:1px solid var(--egypt-border)">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" style="background:var(--egypt-card);color:var(--egypt-gold);font-family:'Cinzel',serif">
+                  𓂋 Writing & Scribes
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#lifeAccordion2">
+                <div class="accordion-body sans" style="background:var(--egypt-bg-alt);color:var(--egypt-text-muted)">
+                  Literacy was rare and highly valued. Scribes used hieroglyphs for monuments, hieratic for documents, and demotic for everyday writing. Education began at age 5 in temple schools, and scribes held prestigious positions in society.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mt-3" style="background:transparent;border:1px solid var(--egypt-border)">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" style="background:var(--egypt-card);color:var(--egypt-gold);font-family:'Cinzel',serif">
+                  𓁹 Art & Entertainment
+                </button>
+              </h2>
+              <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#lifeAccordion2">
+                <div class="accordion-body sans" style="background:var(--egypt-bg-alt);color:var(--egypt-text-muted)">
+                  Egyptians enjoyed music, dance, board games (Senet was the most popular), and storytelling. Banquets featured musicians playing harps, lutes, and flutes. Hunting and fishing were popular pastimes for the elite.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="section-egypt">
+    <div class="container">
+      <div class="text-center mb-5 fade-in">
+        <h2 style="color:var(--egypt-gold);font-size:2rem;letter-spacing:0.1em">Scenes from the Nile</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="row g-3">
+        <div class="col-md-4 fade-in">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Egyptian_farmers.jpg/640px-Egyptian_farmers.jpg" class="img-fluid" style="border:1px solid var(--egypt-border)" alt="Farming">
+        </div>
+        <div class="col-md-4 fade-in">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Egyptian_banquet.jpg/640px-Egyptian_banquet.jpg" class="img-fluid" style="border:1px solid var(--egypt-border)" alt="Banquet">
+        </div>
+        <div class="col-md-4 fade-in">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Egyptian_tomb_painting.jpg/640px-Egyptian_tomb_painting.jpg" class="img-fluid" style="border:1px solid var(--egypt-border)" alt="Tomb Painting">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-egypt">
+    <div class="container">
+      <div class="footer-icon">𓂀</div>
+      <p style="color:var(--egypt-text-muted);letter-spacing:0.2em;text-transform:uppercase;font-size:0.9rem">Egyptian Museum</p>
+      <p class="sans" style="color:#5a4a3a;font-size:0.8rem;margin-top:1rem">© 2026 Egyptian Museum. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="scripts/bootstrap.bundle.min.js"></script>
+  <script src="scripts/base.js"></script>
+</body>
+</html>
